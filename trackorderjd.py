@@ -44,7 +44,7 @@ def process_order(order_number, postal_code):
         else:
             return "Error Payment"
     else:
-        dernier_code = "Aucune info sur le suivi , surement cancel / loan"
+        dernier_code = "Aucune info sur la commande : Serveur repond pas"
         return dernier_code
 
 with open(csvfilename, 'r') as csvfile:
